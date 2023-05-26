@@ -73,7 +73,7 @@ function Igor.DelTable()
     local source = source
     local user_id = vRP.getUserId(source)
     if user_id then
-        vRP.execute('igor/DelWeapons', {
+        vRP.execute('igor/DelTable', {
             user_id = user_id
         })
         
